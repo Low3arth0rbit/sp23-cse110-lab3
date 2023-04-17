@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="icon" href="/favicon.ico">
+        <title>Meeting Minutes</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#attendance">Attendance</a>
+                    <li><a href="#important_dates">Important Dates</a>
+                    <li><a href="#meeting_notes">Meeting Notes</a>
+                    <li><a href="#your_ideas">Input Your Ideas</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div>
+            <h1>Powellpuff Girls Meeting Minutes</h1>
+            <h2>First Meeting: get to know each other and expectations</h2>
+            <h2>April 16, 2023</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/95/Powerpuff_girls_characters.jpg/270px-Powerpuff_girls_characters.jpg" alt="powerpuff girl">
+        </div>
+
+        <section>
+            <h3 id="attendance">Attendance</h3>
+            <ul>
+                <li><input type="checkbox">Professor Utonium</li>
+                <li><input type="checkbox">Blossom</li>
+                <li><input type="checkbox">Bubbles</li>
+                <li><input type="checkbox">Buttercup</li>
+                <li><input type="checkbox">Mayor of Townsville</li>
+                <li><input type="checkbox">Mojo Jojo</li>
+                <li><input type="checkbox">Fuzzy Lumpkins</li>
+            </ul>
+        </section>
+
+        <main>
+            <h3 id="important_dates">Important Dates</h3>
+            <ol>
+                <li>
+                    <details>
+                        <summary>November 18</summary>
+                        Season 1, first air date
+                    </details>
+                </li>
+                <li>
+                    <details>
+                        <summary>June 25</summary>
+                        Season 2, first air date
+                    </details>
+                </li>
+                <li>
+                    <details>
+                        <summary>July 28</summary>
+                        Season 3, first air date
+                    </details>
+                </li>
+                <li>
+                    <details>
+                        <summary>April 14</summary>
+                        Season 4, first air date
+                    </details>
+                </li>
+                <li>
+                    <details>
+                        <summary>September 5</summary>
+                        Season 5, first air date
+                    </details>
+                </li>
+                <li>
+                    <details>
+                        <summary>April 16</summary>
+                        Season 6, first air date
+                    </details>
+                </li>
+            </ol>
+
+            <h3 id="meeting_notes">Meeting Notes</h3>
+            <p>
+                <video width="320" height="180" controls>
+                    <source src="powerpuff_intro.mp4">
+                </video>
+                <br>
+                <strong><span>Powderpuff Girls</span></strong> <em>Season 1 Episode 1.</em>
+                <br>
+                <b>Mojo Jojo</b> steals a magical Anubis dog head and unleashes a curse that turns everyone into dogs, including the <i>Powerpuff Girls</i>, but the three sniff out a solution and show <b>Mojo Jojo</b> that their bite is worse than his bark.
+                <br>
+                The girls find something uneasy about the Professor's new girlfriend Ima Goodlady. It turns out that she's really the sinister Sedusa, who gets the girls grounded so she can commit crimes around Townsville, such as making off with the Mayor's jewels.
+                <audio controls>
+                    <source src="powerpuff_outro.mp3">
+                </audio>
+            </p>
+        </main>
+
+        <section>
+            <h3 id="your_ideas">Input Your Ideas</h3>
+            <fieldset>
+                <label for="names">Your Name:</label>
+                <select name="names" id="names">
+                    <option value="">--Please choose your name--</option>
+                    <option value="blossom">Blossom</option>
+                    <option value="bubbles">Bubbles</option>
+                    <option value="buttercup">Buttercup</option>
+                    <option value="mayor">Mayor of Townsville</option>
+                    <option value="mojo">Mojo Jojo</option>
+                    <option value="lumpkins">Fuzzy Lumpkins</option>
+                </select>
+                <br>
+                <label for="rating">Rate this meeting:</label>
+                <input list="1to5" id="rating" name="rating">
+                <datalist id="1to5">
+                    <option value="1">
+                    <option value="2">
+                    <option value="3">
+                    <option value="4">
+                    <option value="5">
+                </datalist>
+                <br>
+                <label for="review">Reason for rating:</label><br>
+                <textarea name="review" id="review" cols="30" rows="10"></textarea>
+                <br>
+                <label for="suggestion">Suggestion:</label><br>
+                <textarea name="suggestion" id="suggestion" cols="30" rows="10"></textarea>
+            </fieldset>
+        </section>
+
+        <hr>
+
+        <section>
+            <form onsubmit="alert('No previous meeting minutes')">
+                <button>Previous Meeting Minutes</button>
+            </form>
+            <form onsubmit="alert('No next meeting minutes')">
+                <button>Next Meeting Minutes</button>
+            </form>
+        </section>
+        <br>
+        <footer>
+            image: https://en.wikipedia.org/wiki/The_Powerpuff_Girls<br>
+            video: https://www.youtube.com/watch?v=PlpUABjD_p0&ab_channel=HDTVSeries<br>
+            audio: https://www.youtube.com/watch?v=a6epMQlNWtI&ab_channel=Valenn04<br>
+            season 1 episode 1 summary: https://en.wikipedia.org/wiki/List_of_The_Powerpuff_Girls_episodes<br>
+        </footer>
+    </body>
+</html>
