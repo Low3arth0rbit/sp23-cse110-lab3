@@ -1,2 +1,2 @@
-# Lab 2
-https://low3arth0rbit.github.io/Lab2/
+# Lab 3
+https://low3arth0rbit.github.io/sp23-cse110-lab3/
