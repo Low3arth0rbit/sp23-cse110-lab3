@@ -8,7 +8,7 @@
     </head>
     <body>
         <header>
-            <nav>
+            <nav class="navlink">
                 <ul>
                     <li class="inline"><a href="#attendance">Attendance</a>
                     <li class="inline"><a href="#important_dates">Important Dates</a>
@@ -18,116 +18,121 @@
             </nav>
         </header>
 
-        <div>
+        <div class="start">
             <h1 class="title">Powellpuff Girls Meeting Minutes</h1>
             <h2>First Meeting: get to know each other and expectations</h2>
             <h2>April 16, 2023</h2>
-            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/95/Powerpuff_girls_characters.jpg/270px-Powerpuff_girls_characters.jpg" alt="powerpuff girl">
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/95/Powerpuff_girls_characters.jpg/270px-Powerpuff_girls_characters.jpg" alt="powerpuff girl" class="mainimg">
         </div>
 
-        <section>
-            <h3 id="attendance" class="red subtitle">Attendance</h3>
-            <ul>
-                <li><input type="checkbox">Professor Utonium</li>
-                <li class="red"><input type="checkbox">Blossom</li>
-                <li class="blue"><input type="checkbox">Bubbles</li>
-                <li class="green"><input type="checkbox">Buttercup</li>
-                <li><input type="checkbox">Mayor of Townsville</li>
-                <li><input type="checkbox">Mojo Jojo</li>
-                <li><input type="checkbox">Fuzzy Lumpkins</li>
-            </ul>
-        </section>
+        <div class="grid">
+            <section class="body1">
+                <h3 id="attendance" class="red subtitle">Attendance</h3>
+                <ul>
+                    <li><input type="checkbox">Professor Utonium</li>
+                    <li class="red"><input type="checkbox">Blossom</li>
+                    <li class="blue"><input type="checkbox">Bubbles</li>
+                    <li class="green"><input type="checkbox">Buttercup</li>
+                    <li><input type="checkbox">Mayor of Townsville</li>
+                    <li><input type="checkbox">Mojo Jojo</li>
+                    <li><input type="checkbox">Fuzzy Lumpkins</li>
+                </ul>
+            </section>
 
-        <main>
-            <h3 id="important_dates" class="blue subtitle">Important Dates</h3>
-            <ol>
-                <li>
-                    <details>
-                        <summary>November 18</summary>
-                        Season 1, first air date
-                    </details>
-                </li>
-                <li>
-                    <details>
-                        <summary>June 25</summary>
-                        Season 2, first air date
-                    </details>
-                </li>
-                <li>
-                    <details>
-                        <summary>July 28</summary>
-                        Season 3, first air date
-                    </details>
-                </li>
-                <li>
-                    <details>
-                        <summary>April 14</summary>
-                        Season 4, first air date
-                    </details>
-                </li>
-                <li>
-                    <details>
-                        <summary>September 5</summary>
-                        Season 5, first air date
-                    </details>
-                </li>
-                <li>
-                    <details>
-                        <summary>April 16</summary>
-                        Season 6, first air date
-                    </details>
-                </li>
-            </ol>
+            <section class="body2">
+                <h3 id="important_dates" class="blue subtitle">Important Dates</h3>
+                <ol class="flex">
+                    <li>
+                        <details>
+                            <summary>November 18</summary>
+                            Season 1, first air date
+                        </details>
+                    </li>
+                    <li>
+                        <details>
+                            <summary>June 25</summary>
+                            Season 2, first air date
+                        </details>
+                    </li>
+                    <li>
+                        <details>
+                            <summary>July 28</summary>
+                            Season 3, first air date
+                        </details>
+                    </li>
+                    <li>
+                        <details>
+                            <summary>April 14</summary>
+                            Season 4, first air date
+                        </details>
+                    </li>
+                    <li>
+                        <details>
+                            <summary>September 5</summary>
+                            Season 5, first air date
+                        </details>
+                    </li>
+                    <li>
+                        <details>
+                            <summary>April 16</summary>
+                            Season 6, first air date
+                        </details>
+                    </li>
+                </ol>
+            </section>
+        </div>
 
-            <h3 id="meeting_notes" class="green subtitle">Meeting Notes</h3>
-            <p>
-                <video width="320" height="180" controls>
-                    <source src="powerpuff_intro.mp4">
-                </video>
-                <br>
-                <strong><span class="PPG">Powderpuff Girls</span></strong> <em>Season 1 Episode 1.</em>
-                <br>
-                <b>Mojo Jojo</b> steals a magical Anubis dog head and unleashes a curse that turns everyone into dogs, including the <span class="PPG"><i>Powerpuff Girls</i></span>, but the three sniff out a solution and show <b>Mojo Jojo</b> that their bite is worse than his bark.
-                <br>
-                <span class="PPG">Powderpuff Girls</span> find something uneasy about the Professor's new girlfriend Ima Goodlady. It turns out that she's really the sinister <span id="medusa">Medusa</span> Sedusa, who gets the girls grounded so she can commit crimes around Townsville, such as making off with the Mayor's jewels.
-            </p>
-            <audio controls>
-                <source src="powerpuff_outro.mp3">
-            </audio>
-        </main>
+        <div class="grid">
+            <main class="body1">
+                <h3 id="meeting_notes" class="green subtitle">Meeting Notes</h3>
+                <p>
+                    <video width="640" height="360" controls>
+                        <source src="powerpuff_intro.mp4">
+                    </video>
+                    <br>
+                    <strong><span class="PPG">Powderpuff Girls</span></strong> <em>Season 1 Episode 1.</em>
+                    <br>
+                    <b>Mojo Jojo</b> steals a magical Anubis dog head and unleashes a curse that turns everyone into dogs, including the <span class="PPG"><i>Powerpuff Girls</i></span>, but the three sniff out a solution and show <b>Mojo Jojo</b> that their bite is worse than his bark.
+                    <br>
+                    <span class="PPG">Powderpuff Girls</span> find something uneasy about the Professor's new girlfriend Ima Goodlady. It turns out that she's really the sinister <span id="medusa">Medusa</span> Sedusa, who gets the girls grounded so she can commit crimes around Townsville, such as making off with the Mayor's jewels.
+                </p>
+                <audio controls>
+                    <source src="powerpuff_outro.mp3">
+                </audio>
+            </main>
 
-        <section>
-            <h3 id="your_ideas" class="altsubtitle">Input Your Ideas</h3>
-            <fieldset>
-                <label for="names">Your Name:</label>
-                <select name="names" id="names">
-                    <option value="">--Please choose your name--</option>
-                    <option value="blossom">Blossom</option>
-                    <option value="bubbles">Bubbles</option>
-                    <option value="buttercup">Buttercup</option>
-                    <option value="mayor">Mayor of Townsville</option>
-                    <option value="mojo">Mojo Jojo</option>
-                    <option value="lumpkins">Fuzzy Lumpkins</option>
-                </select>
-                <br>
-                <label for="rating">Rate this meeting:</label>
-                <input list="1to5" id="rating" name="rating">
-                <datalist id="1to5">
-                    <option value="1">
-                    <option value="2">
-                    <option value="3">
-                    <option value="4">
-                    <option value="5">
-                </datalist>
-                <br>
-                <label for="review">Reason for rating:</label><br>
-                <textarea name="review" id="review" cols="30" rows="10"></textarea>
-                <br>
-                <label for="suggestion">Suggestion:</label><br>
-                <textarea name="suggestion" id="suggestion" cols="30" rows="10"></textarea>
-            </fieldset>
-        </section>
-
+            <section class="body2">
+                <h3 id="your_ideas" class="altsubtitle">Input Your Ideas</h3>
+                <fieldset>
+                    <label for="names">Your Name:</label>
+                    <select name="names" id="names">
+                        <option value="">--Please choose your name--</option>
+                        <option value="blossom">Blossom</option>
+                        <option value="bubbles">Bubbles</option>
+                        <option value="buttercup">Buttercup</option>
+                        <option value="mayor">Mayor of Townsville</option>
+                        <option value="mojo">Mojo Jojo</option>
+                        <option value="lumpkins">Fuzzy Lumpkins</option>
+                    </select>
+                    <br>
+                    <label for="rating">Rate this meeting:</label>
+                    <input list="1to5" id="rating" name="rating">
+                    <datalist id="1to5">
+                        <option value="1">
+                        <option value="2">
+                        <option value="3">
+                        <option value="4">
+                        <option value="5">
+                    </datalist>
+                    <br>
+                    <label for="review">Reason for rating:</label><br>
+                    <textarea name="review" id="review" cols="30" rows="10"></textarea>
+                    <br>
+                    <label for="suggestion">Suggestion:</label><br>
+                    <textarea name="suggestion" id="suggestion" cols="30" rows="10"></textarea>
+                </fieldset>
+            </section>
+        </div>
         <hr>
 
         <section>
