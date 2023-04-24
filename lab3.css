@@ -12,6 +12,10 @@ html {
     font-family: 'bruno';
 }
 
+.start {
+    margin-top: 60px;
+}
+
 h1 {
     font-size: 5rem; /* relative unit */
     text-align: center;
@@ -27,6 +31,8 @@ h2 {
     border-style: solid;
     border-color: red blue green;
     border-width: 5px;
+    max-width: 100vw;
+    min-width: 200px;
 }
 
 .subtitle {
@@ -60,6 +66,15 @@ h2 {
     padding-right: 16vw;
 }
 
+.navlink {
+    position: fixed;
+    top: 0;
+    background-color: gray;
+    margin-top: -10px;
+    height: 40px;
+    width: 100%;
+}
+
 .PPG {
     display: inline-block;
     width: 120px;
@@ -73,4 +88,44 @@ h2 {
 
 #medusa {
     text-decoration: line-through;
+}
+
+a:hover {
+    background-color: yellow;
+}
+
+a:active {
+    background-color: white;
+}
+
+.mainimg {
+    position: absolute;
+    top: 9rem;
+    left: 0;
+    width: 100px;
+    height: 50px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.body1 {
+    grid-area: lside;
+}
+
+.body2 {
+    grid-area: rside;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+      "lside lside rside rside";
+    justify-items: start;
 }
