@@ -55,6 +55,22 @@ h2 {
     color: hsl(120, 100%, 25%);
 }
 
+.inline {
+    display: inline;
+    padding-right: 16vw;
+}
+
+.PPG {
+    display: inline-block;
+    width: 120px;
+    height: 30px;
+    margin: auto;
+    padding: 4px;
+    text-align: center;
+    border-style: solid;
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.3), rgba(0, 0, 255, 0.3), rgba(0, 128, 0, 0.3))
+}
+
 #medusa {
     text-decoration: line-through;
 }
