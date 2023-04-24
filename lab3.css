@@ -1,0 +1,34 @@
+/* new font */
+@font-face {
+    font-family: 'bruno';
+    src: url('brunoace-regular-webfont.woff2') format('woff2'),
+         url('brunoace-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    font-size: 15px; /* absolute unit */
+    font-family: 'bruno';
+}
+
+h1 {
+    font-size: 5rem; /* relative unit */
+    text-align: center;
+}
+
+.red {
+    color: rgb(255,0,0);
+}
+
+.blue {
+    color: #0000FF;
+}
+
+.green {
+    color: hsl(120, 100%, 25%);
+}
+
+#medusa {
+    text-decoration: line-through;
+}
