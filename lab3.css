@@ -66,6 +66,7 @@ h2 {
     padding-right: 16vw;
 }
 
+/* fixed navigation bar */
 .navlink {
     position: fixed;
     top: 0;
@@ -75,6 +76,7 @@ h2 {
     width: 100%;
 }
 
+/* special effects for Powellpuff girls */
 .PPG {
     display: inline-block;
     width: 120px;
@@ -90,10 +92,10 @@ h2 {
     text-decoration: line-through;
 }
 
+/* link mouse hover/click effects */
 a:hover {
     background-color: yellow;
 }
-
 a:active {
     background-color: white;
 }
@@ -114,14 +116,13 @@ a:active {
     flex-wrap: wrap;
 }
 
+/* grid for big sections on the webpage */
 .body1 {
     grid-area: lside;
 }
-
 .body2 {
     grid-area: rside;
 }
-
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
