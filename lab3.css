@@ -7,9 +7,13 @@
     font-style: normal;
 }
 
-html {
+* {
     font-size: 15px; /* absolute unit */
     font-family: 'bruno';
+}
+
+[href] {
+    color: blue;
 }
 
 .start {
@@ -24,6 +28,31 @@ h1 {
 h2 {
     background-color: black;
     color: turquoise;
+}
+
+h1,h2 {
+    font-family: fantasy;
+}
+
+ul li{
+    font-size: 20px;
+}
+
+fieldset > label {
+    font-size: 25px;
+    color:violet;
+}
+
+div ~ span {
+    color: dodgerblue;
+}
+
+h1 + h2 {
+    color: darkorange;
+}
+
+h3.subtitle {
+    font-size: x-large;
 }
 
 .title {
