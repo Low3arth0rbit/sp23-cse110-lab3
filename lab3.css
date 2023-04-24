@@ -17,6 +17,32 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    background-color: black;
+    color: turquoise;
+}
+
+.title {
+    margin-top: -8pt; /* absolute unit */
+    border-style: solid;
+    border-color: red blue green;
+    border-width: 5px;
+}
+
+.subtitle {
+    margin: 2ex 0ex 0ex 0ex; /* relative unit */
+    border-style: dashed;
+    padding-left: 2mm; /* absolute unit */
+    border-radius: 30px;
+}
+
+.altsubtitle {
+    margin: auto;
+    border-style: dashed;
+    padding: 0lh 0lh 0lh .4lh; /* relative unit */
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.3), rgba(0, 0, 255, 0.3), rgba(0, 128, 0, 0.3))
+}
+
 .red {
     color: rgb(255,0,0);
 }
